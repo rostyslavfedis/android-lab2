@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#B3064153"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="#B3064153"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="72dp"
+        android:layout_toEndOf="@+id/text_view"
+        android:scaleType="centerCrop"
+        android:src="@drawable/settings" />
+
+    <ImageButton
+        android:id="@+id/bottom"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_toLeftOf="@+id/button_two"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00FFFFFF"
+        android:maxWidth="86dp"
+        android:maxHeight="86dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/instagram" />
+
+    <ImageButton
+        android:id="@+id/button_two"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00FFFFFF"
+        android:maxWidth="86dp"
+        android:maxHeight="86dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/button_three"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_toRightOf="@+id/button_two"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00FFFFFF"
+        android:maxWidth="86dp"
+        android:maxHeight="86dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/linkedin" />
+
+</RelativeLayout>

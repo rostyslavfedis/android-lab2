@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">android_vm_relative</string>
+    <string name="welcome">Welcome to settings!</string>
+</resources>
